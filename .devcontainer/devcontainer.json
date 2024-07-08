@@ -1,0 +1,12 @@
+{
+    "name": "WebDriverIO Environment",
+    "build": {
+      "context": "..",
+      "dockerfile": "Dockerfile"
+    },
+
+    "forwardPorts": [4444],
+    "postCreateCommand": "npm install",
+    "remoteUser": "node"
+  }
+  
